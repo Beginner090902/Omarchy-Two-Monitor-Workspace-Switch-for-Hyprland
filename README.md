@@ -35,13 +35,13 @@ Clone the repository in your Hyperland config
 
 When Make the scripts executable: 
 
-    cd .config/hyplr/Omarchy-Two-Monitor-Workspace-Switch-for-Hyprland/two-monitor-setupskript
+    cd .config/hypr/Omarchy-Two-Monitor-Workspace-Switch-for-Hyprland/two-monitor-setupskript
 
     chmod +x v-monitor1.sh v-monitor2.sh v-monitor3.sh v-monitor4.sh v-monitor5.sh 
 
 ## Set your monitor config right. For me it was this.
 
-### in .config/hyplr/monitor.conf
+### in .config/hypr/monitor.conf
 
 ###
     env = GDK_SCALE,2
@@ -66,15 +66,15 @@ When Make the scripts executable:
     hyprctl monitors
 
 ## Now the last Step 
-### Edit the .contig.hyplr/bindings.conf
+### Edit the .contig.hypr/bindings.conf
 With this 
 
 ###
-    bind = SUPER, 1, exec, .config/hyplr/Omarchy-Two-Monitor-Workspace-Switch-for-Hyprland/two-monitor-setupskript/v-monitor1.sh
-    bind = Super, 2, exec, .config/hyplr/Omarchy-Two-Monitor-Workspace-Switch-for-Hyprland/two-monitor-setupskript/v-monitor2.sh
-    bind = Super, 3, exec, .config/hyplr/Omarchy-Two-Monitor-Workspace-Switch-for-Hyprland/two-monitor-setupskript/v-monitor3.sh
-    bind = Super, 4, exec, .config/hyplr/Omarchy-Two-Monitor-Workspace-Switch-for-Hyprland/two-monitor-setupskript/v-monitor4.sh
-    bind = Super, 5, exec, .config/hyplr/Omarchy-Two-Monitor-Workspace-Switch-for-Hyprland/two-monitor-setupskript/v-monitor5.sh
+    bind = SUPER, 1, exec, .config/hypr/Omarchy-Two-Monitor-Workspace-Switch-for-Hyprland/two-monitor-setupskript/v-monitor1.sh
+    bind = Super, 2, exec, .config/hypr/Omarchy-Two-Monitor-Workspace-Switch-for-Hyprland/two-monitor-setupskript/v-monitor2.sh
+    bind = Super, 3, exec, .config/hypr/Omarchy-Two-Monitor-Workspace-Switch-for-Hyprland/two-monitor-setupskript/v-monitor3.sh
+    bind = Super, 4, exec, .config/hypr/Omarchy-Two-Monitor-Workspace-Switch-for-Hyprland/two-monitor-setupskript/v-monitor4.sh
+    bind = Super, 5, exec, .config/hypr/Omarchy-Two-Monitor-Workspace-Switch-for-Hyprland/two-monitor-setupskript/v-monitor5.sh
 ###
 
 
