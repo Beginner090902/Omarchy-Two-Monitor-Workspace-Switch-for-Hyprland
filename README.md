@@ -35,7 +35,7 @@ Clone the repository in your Hyperland config
 
 When Make the scripts executable: 
 
-    cd .config/hyplr/Omarchy-Two-Monitor-Workspace-Switch-for-Hyprland/two-monitor-setupskript
+    cd Omarchy-Two-Monitor-Workspace-Switch-for-Hyprland/two-monitor-setupskript
 
     chmod +x v-monitor1.sh v-monitor2.sh v-monitor3.sh v-monitor4.sh v-monitor5.sh 
 
@@ -70,11 +70,11 @@ When Make the scripts executable:
 With this 
 
 ###
-    bind = SUPER, 1, exec, .config/hyplr/Omarchy-Two-Monitor-Workspace-Switch-for-Hyprland/two-monitor-setupskript/v-monitor1.sh
-    bind = Super, 2, exec, .config/hyplr/Omarchy-Two-Monitor-Workspace-Switch-for-Hyprland/two-monitor-setupskript/v-monitor2.sh
-    bind = Super, 3, exec, .config/hyplr/Omarchy-Two-Monitor-Workspace-Switch-for-Hyprland/two-monitor-setupskript/v-monitor3.sh
-    bind = Super, 4, exec, .config/hyplr/Omarchy-Two-Monitor-Workspace-Switch-for-Hyprland/two-monitor-setupskript/v-monitor4.sh
-    bind = Super, 5, exec, .config/hyplr/Omarchy-Two-Monitor-Workspace-Switch-for-Hyprland/two-monitor-setupskript/v-monitor5.sh
+    bind = SUPER, 1, exec, .config/hypr/Omarchy-Two-Monitor-Workspace-Switch-for-Hyprland/two-monitor-setupskript/v-monitor1.sh
+    bind = Super, 2, exec, .config/hypr/Omarchy-Two-Monitor-Workspace-Switch-for-Hyprland/two-monitor-setupskript/v-monitor2.sh
+    bind = Super, 3, exec, .config/hypr/Omarchy-Two-Monitor-Workspace-Switch-for-Hyprland/two-monitor-setupskript/v-monitor3.sh
+    bind = Super, 4, exec, .config/hypr/Omarchy-Two-Monitor-Workspace-Switch-for-Hyprland/two-monitor-setupskript/v-monitor4.sh
+    bind = Super, 5, exec, .config/hypr/Omarchy-Two-Monitor-Workspace-Switch-for-Hyprland/two-monitor-setupskript/v-monitor5.sh
 ###
 
 
